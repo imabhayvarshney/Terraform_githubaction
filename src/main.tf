@@ -1,7 +1,7 @@
 terraform {
    backend "s3" {
     bucket         = "cc-tf-state-backend-ci-cd-demo023"
-    key            = "+KpEulAgX9HdXMZlwP+W+2tvpg/nQmWGfVlmuUdJ"
+    key            = ""  #mention key
     region         = "us-east-1"
   }
    required_version = ">=0.13.0"
